@@ -7,16 +7,15 @@ class TodoItem extends Component {
 
         return (
             <div className="todo-item" onClick={() => onToggle(id)}>
-                <div className="todo-item" onClick={(e) => {
+                <div className="remove" onClick={(e) => {
                     e.stopPropagation();
                     onRemove(id)}}>
                     &times;
                 </div>
 
-                <div className={`todo-texrt ${checked && 'checked'}`}>
+                <div className={checked && 'checked ' + 'todo-text'}>
                     <div>{text}</div>
                 </div>
-
                 <div>
                     {
                         checked && (<div className="check-mark">✓</div>)

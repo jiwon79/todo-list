@@ -3,4 +3,13 @@
     width: 30px;
     height: 30px;
     margin: 0.5rem;
+    opacity: 0.3;
+}
+
+.color:hover {
+    opacity: 0.7;
+}
+
+.color.active {
+    opacity: 1;
 }

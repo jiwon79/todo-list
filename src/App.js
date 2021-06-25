@@ -13,9 +13,9 @@ class App extends Component {
   state = {
     input: '',
     todos: [
-      { id: 0, text: ' 리액트 소개', checked: false, color: '#ffffff' },
-      { id: 1, text: ' 리액트 소개', checked: true, color: '#ffffff' },
-      { id: 2, text: ' 리액트 소개', checked: false, color: '#ffffff' }
+      { id: 0, text: ' 리액트 소개', checked: false, color: '#000000' },
+      { id: 1, text: ' 리액트 소개', checked: true, color: '#000000' },
+      { id: 2, text: ' 리액트 소개', checked: false, color: '#000000' }
     ],
     color: '#ffffff'
   }
